@@ -9,8 +9,12 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
+<<<<<<< HEAD
   #   url: /sitemap/
   # - title: "재테크"
   #   url: /investment/
   # - title: "About"
   #   url: /about/
+=======
+  #   url: /sitemap/
+>>>>>>> parent of f4c3308 (Google Search Console 인증파일)
