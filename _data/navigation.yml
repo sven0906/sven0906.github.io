@@ -10,7 +10,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-   - title: "재테크"
-     url: /재테크/
-   - title: "About"
-     url: /about/
+  - title: "재테크"
+    url: /재테크/
+  - title: "About"
+    url: /about/
