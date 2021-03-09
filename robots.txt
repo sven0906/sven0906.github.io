@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sven0906.github.io/sitemap.xml
