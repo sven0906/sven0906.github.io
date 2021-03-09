@@ -96,7 +96,7 @@ analytics:
 # Site Author
 author:
   name             : "스벤"
-  avatar           : "/assets/img/christin-hume-Hcfwew744z4-unsplash.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**개발 및 재테크** 관련 포스팅"
   location         : "Republic of Korea"
   email            : "sven0906@gmail.com"
@@ -125,7 +125,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:jhl0906@naver.com
+#      url: mailto:jhl0906@naver.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
