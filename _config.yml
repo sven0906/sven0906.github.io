@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "스벤 dev log"
+title                    : "스벤's dev log"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "기억보다 기록을" # site tagline that appears below site title in masthead
 name                     : "SVEN"
 description              : "개발/재테크 "
 # url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -31,9 +31,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "sven" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -96,9 +96,9 @@ analytics:
 # Site Author
 author:
   name             : "스벤"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/christin-hume-Hcfwew744z4-unsplash.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**개발 및 재테크** 관련 포스팅"
-  location         : "Seoul"
+  location         : "Republic of Korea"
   email            : "sven0906@gmail.com"
   links:
     - label: "Email"
@@ -123,15 +123,15 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:jhl0906@naver.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+#      url: "https://github.com/7271kim"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -278,6 +278,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
