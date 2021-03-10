@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 tags:
   - DRF
   - ViewSet
@@ -11,6 +11,7 @@ categories:
 
 ## ModelViewSet
 > .list(), .retrieve(), .create(), .update(), .partial_update(), .destroy()
+
 ### 예제
 ```python
 class AccountViewSet(viewsets.ModelViewSet):
