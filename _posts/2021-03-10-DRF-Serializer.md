@@ -7,6 +7,8 @@ tags:
   - Serializer
   - REST FRAMEWORK
   - DRF
+toc: true
+toc_label: "목차"   
 ---
 
 ## Serializing objects
