@@ -1,7 +1,13 @@
 ---
 published: true
 ---
-
+---
+title: "Serializer(시리얼라이저)"
+categories:
+  - Django
+tags:
+  - Serializer, REST FRAMEWORK, DRF
+---
 
 ## Serializing objects
 
