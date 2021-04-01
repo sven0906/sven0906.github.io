@@ -1,6 +1,12 @@
 ---
 published: false
 ---
-## A New Post
+## Heroku sleep 방지
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+
+1. 아래 사이트에서 회원가입
+2. create cronjob 생성
+3. 
+
+[https://cron-job.org/en/](https://cron-job.org/)
